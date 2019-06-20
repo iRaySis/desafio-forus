@@ -33,7 +33,7 @@ Cada ejercicio tendra su una carpeta dentro del proyecto/rama. Es decir, la rama
 
 ### Ejercicio Número 1
 
-Crear un backend API que contenga utilizaondo algun Framework de backend que tenga una entidad/clase/modelo que represente nuestros productos con los campos:
+Crear un backend API utilizaondo algun Framework de backend que tenga una entidad/clase/modelo que represente nuestros productos con los campos:
 
 1. productoId
 2. productoNombre
@@ -41,7 +41,7 @@ Crear un backend API que contenga utilizaondo algun Framework de backend que ten
 4. productoCantidad
 5. productoUbicacion
 
-Esa API debe tener un controlador capas de generar una lista con 5 productos ficticios que cumplan esta estructura mediante un rest endpoint, con un GET call que devuelva un JSON con la lista.
+Esa API debe tener un controlador capaz de generar una lista con 5 productos ficticios que cumplan esta estructura mediante un rest endpoint, con un GET call que devuelva un JSON con la lista.
 
 ### Ejercicio Número 2
 
