@@ -23,13 +23,12 @@ Si llegaste aquí es porque quieres postular al cargo de Desarrollador Full Stac
 
 **Ruta API**: (Documentacion Swagger) [Dummy Api](https://sistemas.forus.cl/forus/challenge/dummy-api/swagger-ui.html)
 
-Cada ejercicio tendra su una carpeta dentro del proyecto/rama. Es decir, la rama base tendra la siguiente estructura:
+Cada ejercicio tendra una carpeta dentro del proyecto/rama. Es decir, la rama base tendra la siguiente estructura:
 
-- backend
-- frontend
-- javascript
+- ejercicio_1
+- ejercicio_2
+- ejercicio_3
 - README.md
-
 
 ### Ejercicio Número 1
 
@@ -56,4 +55,11 @@ Actualmente tenemos una API Mock que permite conectarse a ella por los verbos pr
 En este ejercicio vamos a retomar el CRUD del ejercicio 1, ya que nuestro cliente es una persona que no le gusta esperar, se ha visto como necesario que las acciones sean realizadas mediante AJAX 😃 de esta forma nuestro cliente piensa que el sistema funciona de forma mas eficiente (nuestro cliente quiere que la página no se refresque al crear, editar y eliminar productos 😄)
 
 Para este ejercicio se podrá usar lo que se estime conveniente en Frameworks Javascript.
+
+
+
+> THE END 
+
+
+:fire: :fire: :fire: Mucha suerte! y estamos ansiosos de ver lo que puedes hacer :fire: :fire: :fire:
 
