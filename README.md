@@ -32,7 +32,7 @@ Cada ejercicio tendra una carpeta dentro del proyecto/rama. Es decir, la rama ba
 
 ### Ejercicio Número 1
 
-Crear un backend API utilizaondo algun Framework de backend que tenga una entidad/clase/modelo que represente nuestros productos con los campos:
+Crear un backend API utilizando algun Framework de backend que tenga una entidad/clase/modelo que represente nuestros productos con los campos:
 
 1. productoId
 2. productoNombre
@@ -40,13 +40,13 @@ Crear un backend API utilizaondo algun Framework de backend que tenga una entida
 4. productoCantidad
 5. productoUbicacion
 
-Esa API debe tener un controlador capaz de generar una lista con 5 productos ficticios que cumplan esta estructura mediante un rest endpoint, con un GET call que devuelva un JSON con la lista.
+Esta API debe tener un controlador capaz de listar, llamar por id, crear, editar y borrar productos mediante REST endpoints.
 
 ### Ejercicio Número 2
 
 "Crear un CRUD de productos apuntando a nuestra API"
 
-Actualmente tenemos una [API Mock](https://sistemas.forus.cl/forus/challenge/dummy-api/swagger-ui.html) que permite conectarse a ella por los verbos propios de una API Rest, en base a esta API se ha visto como necesario que se cree una interfaz que permita listar, crear, editar y borrar usuarios, es por esto que se te pide a ti que puedas crear una interfaz dentro del proyecto, haciendo uso de nuestra API.
+Actualmente tenemos una [API Mock](https://sistemas.forus.cl/forus/challenge/dummy-api/swagger-ui.html) que permite conectarse a ella por los verbos propios de una API Rest, en base a esta API se ha visto como necesario que se cree una interfaz que permita listar, crear, editar y borrar productos, es por esto que se te pide a ti que puedas crear una interfaz dentro del proyecto, haciendo uso de nuestra API.
 
 ### Ejercicio Número 3
 
@@ -55,8 +55,6 @@ Actualmente tenemos una [API Mock](https://sistemas.forus.cl/forus/challenge/dum
 En este ejercicio vamos a retomar el CRUD del ejercicio 1, ya que nuestro cliente es una persona que no le gusta esperar, se ha visto como necesario que las acciones sean realizadas mediante AJAX 😃 de esta forma nuestro cliente piensa que el sistema funciona de forma mas eficiente (nuestro cliente quiere que la página no se refresque al crear, editar y eliminar productos 😄)
 
 Para este ejercicio se podrá usar lo que se estime conveniente en Frameworks Javascript.
-
-
 
 > THE END 
 
