@@ -46,7 +46,7 @@ Esa API debe tener un controlador capaz de generar una lista con 5 productos fic
 
 "Crear un CRUD de productos apuntando a nuestra API"
 
-Actualmente tenemos una API Mock que permite conectarse a ella por los verbos propios de una API Rest, en base a esta API se ha visto como necesario que se cree una interfaz que permita listar, crear, editar y borrar usuarios, es por esto que se te pide a ti que puedas crear una interfaz dentro del proyecto, haciendo uso de nuestra API.
+Actualmente tenemos una [API Mock](https://sistemas.forus.cl/forus/challenge/dummy-api/swagger-ui.html) que permite conectarse a ella por los verbos propios de una API Rest, en base a esta API se ha visto como necesario que se cree una interfaz que permita listar, crear, editar y borrar usuarios, es por esto que se te pide a ti que puedas crear una interfaz dentro del proyecto, haciendo uso de nuestra API.
 
 ### Ejercicio Número 3
 
