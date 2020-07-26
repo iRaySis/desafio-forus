@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:latest
+FROM adoptopenjdk/openjdk8:latest
 WORKDIR /app
 COPY ./target/challenge-backend-1.jar /app
 EXPOSE 8085
