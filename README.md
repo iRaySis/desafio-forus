@@ -12,7 +12,7 @@ Proyecto realizado para postular a la empresa Forus
 #### Requisitos:
 - Maven
 - Docker Compose (Opcional)
-- Java 11 (Opcional en caso de usar Docker Compose)
+- Java 8
 
 Para facilitar la ejecución del proyecto se adiciono al desafío la herramienta "Docker Compose", para esto debemos situarnos en el directorio del repositorio y ejecutar los siguientes comandos:
 ```
