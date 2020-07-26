@@ -62,7 +62,7 @@ public class ProductService {
     @Transactional
     public Product getProductEntityById(Long id) {
         Optional<Product> loadedProduct = productDAO.findById(id);
-        if (loadedProduct.isEmpty()) {
+        if (!loadedProduct.isPresent()) {
             log.info("Producto con id "+id+" no encontrado");
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
