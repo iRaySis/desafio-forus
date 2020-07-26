@@ -1,0 +1,17 @@
+version: '2.1'
+services:
+  client:
+    build: ./ejercicio_3
+    ports:
+      - "8080:8080"
+    depends_on: 
+      - "internal_api"
+      - "external_api"
+  internal_api:
+    build: ./ejercicio_1
+    ports:
+      - "8085:8085"
+  external_api:
+    build: ./ejercicio_2
+    ports:
+      - "8086:8086"
