@@ -49,3 +49,9 @@ Para ejecutar el frontend ir a la carpeta del ejercicio 3 y ejecutar el siguient
 npm install --prefix ./ejercicio_3
 npm run serve --prefix ./ejercicio_3
 ```
+
+
+```
+NOTA: Algunas cosas se pudieron hacer más simples pero se implemento de esa manera
+solo para mostrar mostrar conocimientos como las clases Genéricas, etc...
+```
